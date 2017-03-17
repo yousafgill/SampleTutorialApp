@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/first_name"
-        android:textSize="24sp"
+        android:textSize="@dimen/font_size_labels"
         tools:text="@string/first_name" />
 
     <EditText
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/last_name"
-        android:textSize="24sp"
+        android:textSize="@dimen/font_size_labels"
         tools:text="@string/last_name" />
 
     <EditText
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/date_of_birth"
-        android:textSize="24sp"
+        android:textSize="@dimen/font_size_labels"
         tools:text="@string/date_of_birth" />
 
     <EditText
@@ -53,4 +53,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="date" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"/>
 </LinearLayout>
